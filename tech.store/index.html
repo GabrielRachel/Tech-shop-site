@@ -35,7 +35,7 @@
       <div class="list">
         <div class="item active">
           <div class="product-img">
-            <img src="/images/pocox8.png" alt="poco x8" />
+            <img src="./images/pocox8.png" alt="poco x8" />
           </div>
           <div class="content">
             <p class="product-tag">Desempenho para jogos</p>
@@ -51,7 +51,7 @@
 
         <div class="item">
           <div class="product-img">
-            <img src="/images/pocox7.png" alt="poco x7" />
+            <img src="./images/pocox7.png" alt="poco x7" />
           </div>
           <div class="content">
             <p class="product-tag">Mais vendido</p>
@@ -66,7 +66,7 @@
 
         <div class="item">
           <div class="product-img">
-            <img src="/images/poco15t.png" alt="poco 15t" />
+            <img src="./images/poco15t.png" alt="poco 15t" />
           </div>
           <div class="content">
             <p class="product-tag">Linha premium</p>
@@ -81,12 +81,12 @@
       </div>
 
       <div class="arrows">
-        <button class="arrow-btn" id="next">
+        <button class="arrow-btn" id="prev">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
-            fill="currentColor"
+            fill="#fff"
             class="bi bi-caret-left"
             viewBox="0 0 16 16"
           >
@@ -95,12 +95,12 @@
             />
           </svg>
         </button>
-        <button class="arrow-btn" id="prev">
+        <button class="arrow-btn" id="next">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
-            fill="currentColor"
+            fill="#fff"
             class="bi bi-caret-right"
             viewBox="0 0 16 16"
           >
@@ -113,11 +113,13 @@
 
       <div class="indicators">
         <div class="numbers">01</div>
-        <div class="dots"></div>
-        <div class="dots-active"></div>
-        <div class="dots"></div>
-        <div class="dots"></div>
+        <div class="dots">
+          <div class="dot dot-active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
       </div>
     </main>
   </body>
+  <script src="./scripts.js"></script>
 </html>
