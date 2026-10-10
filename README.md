@@ -4,7 +4,7 @@ Site de vendas de eletrônicos da Xiaomi, com visual escuro e detalhes em
 azul neon. Projeto de estudo de front-end feito para praticar HTML, CSS
 e JavaScript construindo algo parecido com uma loja de verdade.
 
-![Print do site](img/print.png)
+![Print do site](images/print.png)
 
 ## Produtos em destaque
 
